@@ -1,0 +1,24 @@
+# view res/layout/act_main.xml #generated:40
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class org.lmw.lt.Act_About { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class org.lmw.lt.Act_Detail { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class org.lmw.lt.Act_Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class org.lmw.lt.comm.App { <init>(...); }
+
+# view res/layout/act_main.xml #generated:27
+-keep class org.lmw.lt.widget.PagerSlidingTabStrip { <init>(...); }
+
+# view res/layout/frag_news.xml #generated:7
+-keep class org.lmw.lt.widget.xlist.XListView { <init>(...); }
+
+# onClick res/layout/act_detail.xml #generated:12
+-keepclassmembers class * { *** back(...); }
+
